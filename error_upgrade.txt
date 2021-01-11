@@ -1,0 +1,219 @@
+[root@clipprd2 opt]# rpm -Uvh Clip-7.00.00-1.x86_64.rpm 
+Preparing...                ########################################### [100%]
+Upgrading to Clip version V7.00.00
+Stopping Clip: $CATALINA_PID was set but the specified file does not exist. Is Tomcat running? Stop aborted.
+Moving files of previous installation to /opt/Clip/backup
+   1:Clip                   ########################################### [100%]
+Postinstall Clip
+Installation done - uninstalling previous version
+Unconfiguring Clip
+/var/tmp/rpm-tmp.bnU58v: /opt/Clip/setup.sh: /bin/sh^M: bad interpreter: No such file or directory
+Uninstalled Clip
+Configuring Clip
+tar (child): apache-tomcat-9.0.34.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+tar: jdk-11.0.6+10-jre/lib/libawt_headless.so: time stamp 2020-07-10 14:48:18 is 179302.153752268 s in the future
+tar: jdk-11.0.6+10-jre/lib/libjaas.so: time stamp 2020-07-10 14:48:18 is 179302.153489397 s in the future
+tar: jdk-11.0.6+10-jre/lib/libmanagement_ext.so: time stamp 2020-07-10 14:48:18 is 179302.152540908 s in the future
+tar: jdk-11.0.6+10-jre/lib/libnio.so: time stamp 2020-07-10 14:48:18 is 179302.146291246 s in the future
+tar: jdk-11.0.6+10-jre/lib/psfont.properties.ja: time stamp 2020-07-10 14:48:18 is 179302.146189642 s in the future
+tar: jdk-11.0.6+10-jre/lib/libzip.so: time stamp 2020-07-10 14:48:18 is 179302.140618042 s in the future
+tar: jdk-11.0.6+10-jre/lib/libj2pcsc.so: time stamp 2020-07-10 14:48:18 is 179302.13980513 s in the future
+tar: jdk-11.0.6+10-jre/lib/libnet.so: time stamp 2020-07-10 14:48:18 is 179302.131048657 s in the future
+tar: jdk-11.0.6+10-jre/lib/libunpack.so: time stamp 2020-07-10 14:48:18 is 179302.121694337 s in the future
+tar: jdk-11.0.6+10-jre/lib/tzdb.dat: time stamp 2020-07-10 14:48:18 is 179302.118645408 s in the future
+tar: jdk-11.0.6+10-jre/lib/jfr/profile.jfc: time stamp 2020-07-10 14:48:18 is 179302.118140853 s in the future
+tar: jdk-11.0.6+10-jre/lib/jfr/default.jfc: time stamp 2020-07-10 14:48:18 is 179302.117328492 s in the future
+tar: jdk-11.0.6+10-jre/lib/jfr: time stamp 2020-07-10 14:48:18 is 179302.117285909 s in the future
+tar: jdk-11.0.6+10-jre/lib/jexec: time stamp 2020-07-10 14:48:18 is 179302.117206087 s in the future
+tar: jdk-11.0.6+10-jre/lib/libfreetype.so: time stamp 2020-07-10 14:48:18 is 179302.077049245 s in the future
+tar: jdk-11.0.6+10-jre/lib/libawt.so: time stamp 2020-07-10 14:48:18 is 179302.055866376 s in the future
+tar: jdk-11.0.6+10-jre/lib/liblcms.so: time stamp 2020-07-10 14:48:18 is 179302.019683242 s in the future
+tar: jdk-11.0.6+10-jre/lib/libsctp.so: time stamp 2020-07-10 14:48:18 is 179302.019532084 s in the future
+tar: jdk-11.0.6+10-jre/lib/libdt_socket.so: time stamp 2020-07-10 14:48:18 is 179302.018429972 s in the future
+tar: jdk-11.0.6+10-jre/lib/libj2gss.so: time stamp 2020-07-10 14:48:18 is 179302.017360147 s in the future
+tar: jdk-11.0.6+10-jre/lib/libjimage.so: time stamp 2020-07-10 14:48:18 is 179302.015682474 s in the future
+tar: jdk-11.0.6+10-jre/lib/jli/libjli.so: time stamp 2020-07-10 14:48:18 is 179302.014408433 s in the future
+tar: jdk-11.0.6+10-jre/lib/jli: time stamp 2020-07-10 14:48:18 is 179302.014383847 s in the future
+tar: jdk-11.0.6+10-jre/lib/libextnet.so: time stamp 2020-07-10 14:48:18 is 179302.014343176 s in the future
+tar: jdk-11.0.6+10-jre/lib/libfontmanager.so: time stamp 2020-07-10 14:48:18 is 179301.985110491 s in the future
+tar: jdk-11.0.6+10-jre/lib/libawt_xawt.so: time stamp 2020-07-10 14:48:18 is 179301.978913963 s in the future
+tar: jdk-11.0.6+10-jre/lib/libmlib_image.so: time stamp 2020-07-10 14:48:18 is 179301.961377238 s in the future
+tar: jdk-11.0.6+10-jre/lib/modules: time stamp 2020-07-10 14:48:18 is 179300.853976467 s in the future
+tar: jdk-11.0.6+10-jre/lib/jspawnhelper: time stamp 2020-07-10 14:48:18 is 179300.853485775 s in the future
+tar: jdk-11.0.6+10-jre/lib/libj2pkcs11.so: time stamp 2020-07-10 14:48:18 is 179300.852681781 s in the future
+tar: jdk-11.0.6+10-jre/lib/jrt-fs.jar: time stamp 2020-07-10 14:48:18 is 179300.851282161 s in the future
+tar: jdk-11.0.6+10-jre/lib/jvm.cfg: time stamp 2020-07-10 14:48:18 is 179300.851236343 s in the future
+tar: jdk-11.0.6+10-jre/lib/libjdwp.so: time stamp 2020-07-10 14:48:18 is 179300.847338725 s in the future
+tar: jdk-11.0.6+10-jre/lib/libinstrument.so: time stamp 2020-07-10 14:48:18 is 179300.846515054 s in the future
+tar: jdk-11.0.6+10-jre/lib/classlist: time stamp 2020-07-10 14:48:18 is 179300.846115326 s in the future
+tar: jdk-11.0.6+10-jre/lib/libmanagement.so: time stamp 2020-07-10 14:48:18 is 179300.845744848 s in the future
+tar: jdk-11.0.6+10-jre/lib/libsplashscreen.so: time stamp 2020-07-10 14:48:18 is 179300.838041692 s in the future
+tar: jdk-11.0.6+10-jre/lib/librmi.so: time stamp 2020-07-10 14:48:18 is 179300.837970037 s in the future
+tar: jdk-11.0.6+10-jre/lib/libjavajpeg.so: time stamp 2020-07-10 14:48:18 is 179300.834290497 s in the future
+tar: jdk-11.0.6+10-jre/lib/libprefs.so: time stamp 2020-07-10 14:48:18 is 179300.834226474 s in the future
+tar: jdk-11.0.6+10-jre/lib/psfontj2d.properties: time stamp 2020-07-10 14:48:18 is 179300.833976889 s in the future
+tar: jdk-11.0.6+10-jre/lib/libsunec.so: time stamp 2020-07-10 14:48:18 is 179300.83027608 s in the future
+tar: jdk-11.0.6+10-jre/lib/libverify.so: time stamp 2020-07-10 14:48:18 is 179300.829502198 s in the future
+tar: jdk-11.0.6+10-jre/lib/libjsound.so: time stamp 2020-07-10 14:48:18 is 179300.828431434 s in the future
+tar: jdk-11.0.6+10-jre/lib/server/libjvm.so: time stamp 2020-07-10 14:48:18 is 179300.582562715 s in the future
+tar: jdk-11.0.6+10-jre/lib/server/libjsig.so: time stamp 2020-07-10 14:48:18 is 179300.582473274 s in the future
+tar: jdk-11.0.6+10-jre/lib/server/Xusage.txt: time stamp 2020-07-10 14:48:18 is 179300.582446004 s in the future
+tar: jdk-11.0.6+10-jre/lib/server: time stamp 2020-07-10 14:48:18 is 179300.582432949 s in the future
+tar: jdk-11.0.6+10-jre/lib/libjsig.so: time stamp 2020-07-10 14:48:18 is 179300.582140969 s in the future
+tar: jdk-11.0.6+10-jre/lib/libmanagement_agent.so: time stamp 2020-07-10 14:48:18 is 179300.582094051 s in the future
+tar: jdk-11.0.6+10-jre/lib/libjava.so: time stamp 2020-07-10 14:48:18 is 179300.579531281 s in the future
+tar: jdk-11.0.6+10-jre/lib/libjawt.so: time stamp 2020-07-10 14:48:18 is 179300.579479025 s in the future
+tar: jdk-11.0.6+10-jre/lib/security/public_suffix_list.dat: time stamp 2020-07-10 14:48:18 is 179300.57734818 s in the future
+tar: jdk-11.0.6+10-jre/lib/security/default.policy: time stamp 2020-07-10 14:48:18 is 179300.576991521 s in the future
+tar: jdk-11.0.6+10-jre/lib/security/cacerts: time stamp 2020-07-10 14:48:18 is 179300.575929093 s in the future
+tar: jdk-11.0.6+10-jre/lib/security/blacklisted.certs: time stamp 2020-07-10 14:48:18 is 179300.575879227 s in the future
+tar: jdk-11.0.6+10-jre/lib/security: time stamp 2020-07-10 14:48:18 is 179300.575859817 s in the future
+tar: jdk-11.0.6+10-jre/lib: time stamp 2020-07-10 14:48:18 is 179300.575849072 s in the future
+tar: jdk-11.0.6+10-jre/conf/net.properties: time stamp 2020-07-10 14:48:18 is 179300.575804585 s in the future
+tar: jdk-11.0.6+10-jre/conf/logging.properties: time stamp 2020-07-10 14:48:18 is 179300.575781244 s in the future
+tar: jdk-11.0.6+10-jre/conf/sound.properties: time stamp 2020-07-10 14:48:18 is 179300.575758456 s in the future
+tar: jdk-11.0.6+10-jre/conf/management/jmxremote.access: time stamp 2020-07-10 14:48:18 is 179300.575721467 s in the future
+tar: jdk-11.0.6+10-jre/conf/management/jmxremote.password.template: time stamp 2020-07-10 14:48:18 is 179300.57540335 s in the future
+tar: jdk-11.0.6+10-jre/conf/management/management.properties: time stamp 2020-07-10 14:48:18 is 179300.57536343 s in the future
+tar: jdk-11.0.6+10-jre/conf/management: time stamp 2020-07-10 14:48:18 is 179300.575349908 s in the future
+tar: jdk-11.0.6+10-jre/conf/security/java.security: time stamp 2020-07-10 14:48:18 is 179300.574693676 s in the future
+tar: jdk-11.0.6+10-jre/conf/security/policy/limited/default_US_export.policy: time stamp 2020-07-10 14:48:18 is 179300.574628625 s in the future
+tar: jdk-11.0.6+10-jre/conf/security/policy/limited/exempt_local.policy: time stamp 2020-07-10 14:48:18 is 179300.57459559 s in the future
+tar: jdk-11.0.6+10-jre/conf/security/policy/limited/default_local.policy: time stamp 2020-07-10 14:48:18 is 179300.574572219 s in the future
+tar: jdk-11.0.6+10-jre/conf/security/policy/limited: time stamp 2020-07-10 14:48:18 is 179300.574559547 s in the future
+tar: jdk-11.0.6+10-jre/conf/security/policy/README.txt: time stamp 2020-07-10 14:48:18 is 179300.574539087 s in the future
+tar: jdk-11.0.6+10-jre/conf/security/policy/unlimited/default_US_export.policy: time stamp 2020-07-10 14:48:18 is 179300.574497436 s in the future
+tar: jdk-11.0.6+10-jre/conf/security/policy/unlimited/default_local.policy: time stamp 2020-07-10 14:48:18 is 179300.574473068 s in the future
+tar: jdk-11.0.6+10-jre/conf/security/policy/unlimited: time stamp 2020-07-10 14:48:18 is 179300.574460225 s in the future
+tar: jdk-11.0.6+10-jre/conf/security/policy: time stamp 2020-07-10 14:48:18 is 179300.574450213 s in the future
+tar: jdk-11.0.6+10-jre/conf/security/java.policy: time stamp 2020-07-10 14:48:18 is 179300.574428274 s in the future
+tar: jdk-11.0.6+10-jre/conf/security: time stamp 2020-07-10 14:48:18 is 179300.574415359 s in the future
+tar: jdk-11.0.6+10-jre/conf: time stamp 2020-07-10 14:48:18 is 179300.574406008 s in the future
+tar: jdk-11.0.6+10-jre/bin/rmid: time stamp 2020-07-10 14:48:18 is 179300.574223833 s in the future
+tar: jdk-11.0.6+10-jre/bin/rmiregistry: time stamp 2020-07-10 14:48:18 is 179300.57418628 s in the future
+tar: jdk-11.0.6+10-jre/bin/pack200: time stamp 2020-07-10 14:48:18 is 179300.574131832 s in the future
+tar: jdk-11.0.6+10-jre/bin/jfr: time stamp 2020-07-10 14:48:18 is 179300.574095124 s in the future
+tar: jdk-11.0.6+10-jre/bin/java: time stamp 2020-07-10 14:48:18 is 179300.574064325 s in the future
+tar: jdk-11.0.6+10-jre/bin/jaotc: time stamp 2020-07-10 14:48:18 is 179300.573785724 s in the future
+tar: jdk-11.0.6+10-jre/bin/jrunscript: time stamp 2020-07-10 14:48:18 is 179300.573743956 s in the future
+tar: jdk-11.0.6+10-jre/bin/unpack200: time stamp 2020-07-10 14:48:18 is 179300.572183186 s in the future
+tar: jdk-11.0.6+10-jre/bin/keytool: time stamp 2020-07-10 14:48:18 is 179300.572111825 s in the future
+tar: jdk-11.0.6+10-jre/bin/jjs: time stamp 2020-07-10 14:48:18 is 179300.571763911 s in the future
+tar: jdk-11.0.6+10-jre/bin: time stamp 2020-07-10 14:48:18 is 179300.571743124 s in the future
+tar: jdk-11.0.6+10-jre/release: time stamp 2020-07-10 14:48:18 is 179300.571719808 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.xml/xerces.md: time stamp 2020-07-10 14:48:18 is 179300.571553259 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.xml/dom.md: time stamp 2020-07-10 14:48:18 is 179300.571525413 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.xml/jcup.md: time stamp 2020-07-10 14:48:18 is 179300.571354838 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.xml/xalan.md: time stamp 2020-07-10 14:48:18 is 179300.571319335 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.xml/bcel.md: time stamp 2020-07-10 14:48:18 is 179300.571290837 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.crypto.ec/ecc.md: time stamp 2020-07-10 14:48:18 is 179300.567857307 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.internal.le/jline.md: time stamp 2020-07-10 14:48:18 is 179300.567757757 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.dynalink/dynalink.md: time stamp 2020-07-10 14:48:18 is 179300.567697638 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.localedata/thaidict.md: time stamp 2020-07-10 14:48:18 is 179300.567495801 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.crypto.cryptoki/pkcs11wrapper.md: time stamp 2020-07-10 14:48:18 is 179300.56737926 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.crypto.cryptoki/pkcs11cryptotoken.md: time stamp 2020-07-10 14:48:18 is 179300.56719571 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.scripting.nashorn/joni.md: time stamp 2020-07-10 14:48:18 is 179300.566807622 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.scripting.nashorn/double-conversion.md: time stamp 2020-07-10 14:48:18 is 179300.566770061 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.smartcardio/pcsclite.md: time stamp 2020-07-10 14:48:18 is 179300.566608289 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.desktop/libpng.md: time stamp 2020-07-10 14:48:18 is 179300.565796235 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.desktop/mesa3d.md: time stamp 2020-07-10 14:48:18 is 179300.565751506 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.desktop/lcms.md: time stamp 2020-07-10 14:48:18 is 179300.56543103 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.desktop/opengl.md: time stamp 2020-07-10 14:48:18 is 179300.56539715 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.desktop/jpeg.md: time stamp 2020-07-10 14:48:18 is 179300.565372588 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.desktop/harfbuzz.md: time stamp 2020-07-10 14:48:18 is 179300.565337703 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.desktop/giflib.md: time stamp 2020-07-10 14:48:18 is 179300.565315939 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.desktop/freetype.md: time stamp 2020-07-10 14:48:18 is 179300.565024959 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.desktop/colorimaging.md: time stamp 2020-07-10 14:48:18 is 179300.564987676 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.desktop/xwd.md: time stamp 2020-07-10 14:48:18 is 179300.564962239 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.base/ASSEMBLY_EXCEPTION: time stamp 2020-07-10 14:48:18 is 179300.564823071 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.base/LICENSE: time stamp 2020-07-10 14:48:18 is 179300.564525426 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.base/aes.md: time stamp 2020-07-10 14:48:18 is 179300.564496901 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.base/ADDITIONAL_LICENSE_INFO: time stamp 2020-07-10 14:48:18 is 179300.564472662 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.base/icu.md: time stamp 2020-07-10 14:48:18 is 179300.564451661 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.base/unicode.md: time stamp 2020-07-10 14:48:18 is 179300.564426184 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.base/public_suffix.md: time stamp 2020-07-10 14:48:18 is 179300.56418618 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.base/asm.md: time stamp 2020-07-10 14:48:18 is 179300.564157132 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.base/cldr.md: time stamp 2020-07-10 14:48:18 is 179300.564132904 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.base/c-libutl.md: time stamp 2020-07-10 14:48:18 is 179300.564107331 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.base: time stamp 2020-07-10 14:48:18 is 179300.564094839 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.xml.crypto/santuario.md: time stamp 2020-07-10 14:48:18 is 179300.563902634 s in the future
+tar: jdk-11.0.6+10-jre/man/man1/jjs.1: time stamp 2020-07-10 14:48:18 is 179300.56334632 s in the future
+tar: jdk-11.0.6+10-jre/man/man1/keytool.1: time stamp 2020-07-10 14:48:18 is 179300.562421104 s in the future
+tar: jdk-11.0.6+10-jre/man/man1/unpack200.1: time stamp 2020-07-10 14:48:18 is 179300.562380915 s in the future
+tar: jdk-11.0.6+10-jre/man/man1/java.1: time stamp 2020-07-10 14:48:18 is 179300.561406165 s in the future
+tar: jdk-11.0.6+10-jre/man/man1/pack200.1: time stamp 2020-07-10 14:48:18 is 179300.561077718 s in the future
+tar: jdk-11.0.6+10-jre/man/man1/rmid.1: time stamp 2020-07-10 14:48:18 is 179300.561025888 s in the future
+tar: jdk-11.0.6+10-jre/man/man1/rmiregistry.1: time stamp 2020-07-10 14:48:18 is 179300.560997183 s in the future
+tar: jdk-11.0.6+10-jre/man/man1: time stamp 2020-07-10 14:48:18 is 179300.560984192 s in the future
+tar: jdk-11.0.6+10-jre/man/ja_JP.UTF-8/man1/jjs.1: time stamp 2020-07-10 14:48:18 is 179300.56056965 s in the future
+tar: jdk-11.0.6+10-jre/man/ja_JP.UTF-8/man1/keytool.1: time stamp 2020-07-10 14:48:18 is 179300.559926607 s in the future
+tar: jdk-11.0.6+10-jre/man/ja_JP.UTF-8/man1/unpack200.1: time stamp 2020-07-10 14:48:18 is 179300.559846215 s in the future
+tar: jdk-11.0.6+10-jre/man/ja_JP.UTF-8/man1/java.1: time stamp 2020-07-10 14:48:18 is 179300.558633518 s in the future
+tar: jdk-11.0.6+10-jre/man/ja_JP.UTF-8/man1/pack200.1: time stamp 2020-07-10 14:48:18 is 179300.558584058 s in the future
+tar: jdk-11.0.6+10-jre/man/ja_JP.UTF-8/man1/rmid.1: time stamp 2020-07-10 14:48:18 is 179300.55854776 s in the future
+tar: jdk-11.0.6+10-jre/man/ja_JP.UTF-8/man1/rmiregistry.1: time stamp 2020-07-10 14:48:18 is 179300.558438688 s in the future
+tar: jdk-11.0.6+10-jre/man/ja_JP.UTF-8/man1: time stamp 2020-07-10 14:48:18 is 179300.558323827 s in the future
+tar: jdk-11.0.6+10-jre/man/ja_JP.UTF-8: time stamp 2020-07-10 14:48:18 is 179300.558301409 s in the future
+tar: jdk-11.0.6+10-jre/man: time stamp 2020-07-10 14:48:18 is 179300.558284743 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.aot: time stamp 2020-07-10 14:48:18 is 179300.556671716 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.sql.rowset: time stamp 2020-07-10 14:48:18 is 179300.556654453 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.httpserver: time stamp 2020-07-10 14:48:18 is 179300.556644349 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.accessibility: time stamp 2020-07-10 14:48:18 is 179300.556634634 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.unsupported: time stamp 2020-07-10 14:48:18 is 179300.55662497 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.xml.crypto: time stamp 2020-07-10 14:48:18 is 179300.556615329 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.internal.vm.ci: time stamp 2020-07-10 14:48:18 is 179300.556605434 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.management: time stamp 2020-07-10 14:48:18 is 179300.556595869 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.internal.vm.compiler: time stamp 2020-07-10 14:48:18 is 179300.556585903 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.internal.vm.compiler.management: time stamp 2020-07-10 14:48:18 is 179300.556575861 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.desktop: time stamp 2020-07-10 14:48:18 is 179300.556565478 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.xml.dom: time stamp 2020-07-10 14:48:18 is 179300.556556104 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.zipfs: time stamp 2020-07-10 14:48:18 is 179300.556546208 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.jfr: time stamp 2020-07-10 14:48:18 is 179300.556536836 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.net: time stamp 2020-07-10 14:48:18 is 179300.556527276 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.net.http: time stamp 2020-07-10 14:48:18 is 179300.556517866 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.datatransfer: time stamp 2020-07-10 14:48:18 is 179300.556508165 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.naming.rmi: time stamp 2020-07-10 14:48:18 is 179300.556498639 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.prefs: time stamp 2020-07-10 14:48:18 is 179300.556488621 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.management.rmi: time stamp 2020-07-10 14:48:18 is 179300.556479034 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.sctp: time stamp 2020-07-10 14:48:18 is 179300.556469285 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.management.jfr: time stamp 2020-07-10 14:48:18 is 179300.55645988 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.management: time stamp 2020-07-10 14:48:18 is 179300.556449898 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.scripting.nashorn.shell: time stamp 2020-07-10 14:48:18 is 179300.556440228 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.smartcardio: time stamp 2020-07-10 14:48:18 is 179300.556430195 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.pack: time stamp 2020-07-10 14:48:18 is 179300.556420609 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.security.auth: time stamp 2020-07-10 14:48:18 is 179300.556410918 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.internal.ed: time stamp 2020-07-10 14:48:18 is 179300.556401246 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.scripting.nashorn: time stamp 2020-07-10 14:48:18 is 179300.556391297 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.naming: time stamp 2020-07-10 14:48:18 is 179300.55638164 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.security.jgss: time stamp 2020-07-10 14:48:18 is 179300.556372034 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.jdwp.agent: time stamp 2020-07-10 14:48:18 is 179300.556362408 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.management.agent: time stamp 2020-07-10 14:48:18 is 179300.556352595 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.logging: time stamp 2020-07-10 14:48:18 is 179300.55634273 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.rmi: time stamp 2020-07-10 14:48:18 is 179300.556333122 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.naming.dns: time stamp 2020-07-10 14:48:18 is 179300.556323521 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.crypto.cryptoki: time stamp 2020-07-10 14:48:18 is 179300.556313846 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.charsets: time stamp 2020-07-10 14:48:18 is 179300.556304434 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.localedata: time stamp 2020-07-10 14:48:18 is 179300.556294637 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.compiler: time stamp 2020-07-10 14:48:18 is 179300.556285124 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.sql: time stamp 2020-07-10 14:48:18 is 179300.556275444 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.security.sasl: time stamp 2020-07-10 14:48:18 is 179300.55626593 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.transaction.xa: time stamp 2020-07-10 14:48:18 is 179300.556249073 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.dynalink: time stamp 2020-07-10 14:48:18 is 179300.556239041 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.internal.le: time stamp 2020-07-10 14:48:18 is 179300.55622889 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.crypto.ec: time stamp 2020-07-10 14:48:18 is 179300.556219097 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.jsobject: time stamp 2020-07-10 14:48:18 is 179300.556209328 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.se: time stamp 2020-07-10 14:48:18 is 179300.556199564 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.scripting: time stamp 2020-07-10 14:48:18 is 179300.556189975 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.xml: time stamp 2020-07-10 14:48:18 is 179300.556180549 s in the future
+tar: jdk-11.0.6+10-jre/legal/java.instrument: time stamp 2020-07-10 14:48:18 is 179300.556170776 s in the future
+tar: jdk-11.0.6+10-jre/legal/jdk.security.jgss: time stamp 2020-07-10 14:48:18 is 179300.556160706 s in the future
+tar: jdk-11.0.6+10-jre/legal: time stamp 2020-07-10 14:48:18 is 179300.556151057 s in the future
+tar: jdk-11.0.6+10-jre: time stamp 2020-07-10 14:48:18 is 179300.556041624 s in the future
+/var/tmp/rpm-tmp.hnVhOp: /opt/Clip/setup.sh: /bin/sh^M: bad interpreter: No such file or directory
+/var/tmp/rpm-tmp.hnVhOp: /opt/Clip/setup.sh: /bin/sh^M: bad interpreter: No such file or directory
+warning: %posttrans(Clip-7.00.00-1.x86_64) scriptlet failed, exit status 126
+[root@clipprd2 opt]# 
+
